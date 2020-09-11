@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Minion/Basic Minion")]
+[CreateAssetMenu()]
 public class MinionType : ScriptableObject
 {
     public int speed = 5;

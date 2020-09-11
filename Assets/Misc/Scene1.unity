@@ -240,7 +240,7 @@ MonoBehaviour:
   - {fileID: 1953871011741513693, guid: ce430d3081d794348adc9b99b3127432, type: 3}
   - {fileID: 1953871011741513693, guid: 577ad6c56cf41d94fa8887ca1b2607af, type: 3}
   typesToSpawn: []
-  amount: 10
+  amount: 15
 --- !u!4 &979865448
 Transform:
   m_ObjectHideFlags: 0
