@@ -11,7 +11,7 @@ public class SpawnPrefab : EventBase
     {
         if (prefab)
         {
-            Vector3 position = new Vector3(Random.Range(-6, 6), Random.Range(-4, 4), 0);
+            Vector3 position = new Vector3(Random.Range(-6f, 6f), Random.Range(-4f, 4f), 0);
             Instantiate(prefab, position, Quaternion.identity);
         }
     }

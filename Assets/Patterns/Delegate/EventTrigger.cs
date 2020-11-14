@@ -6,12 +6,14 @@ public class EventTrigger : MonoBehaviour
 {
     [SerializeField] EventBase eventToTrigger = null;
 
-    private void Start()
+    private void Update()
     {
-        TriggerEvent();
+        if(Input.GetButtonDown("Fire1"))
+        {
+            TriggerEvent();
+        }
     }
 
-    [ContextMenu("TriggerEvent")]
     void TriggerEvent()
     {
         if (eventToTrigger)
