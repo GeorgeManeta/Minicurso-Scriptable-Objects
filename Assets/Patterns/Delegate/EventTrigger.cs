@@ -5,10 +5,11 @@ using UnityEngine;
 public class EventTrigger : MonoBehaviour
 {
     [SerializeField] EventBase eventToTrigger = null;
+    [SerializeField] KeyCode triggerKey = KeyCode.None;
 
     private void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if(Input.GetKeyDown(triggerKey))
         {
             TriggerEvent();
         }
