@@ -16,6 +16,7 @@ public class MonoBehaviorHelper : MonoBehaviour
             Destroy(this);
         }        
     }
+
     void Update()
     {
         ServiceLocator.Update();

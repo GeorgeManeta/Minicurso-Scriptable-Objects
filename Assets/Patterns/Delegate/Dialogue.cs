@@ -7,6 +7,7 @@ public class Dialogue : EventBase
 {
     [TextArea]
     [SerializeField] List<string> lines = new List<string>();
+
     public override void Trigger()
     {
         foreach(string line in lines)

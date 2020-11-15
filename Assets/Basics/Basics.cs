@@ -12,7 +12,7 @@ namespace demo1
         [ContextMenu("CreateInstance")]
         void CreateInstance()
         {
-            reference = (SampleScriptableObject)
+            reference = (SampleScriptableObject) 
                 ScriptableObject.CreateInstance(typeof(SampleScriptableObject));
         }
 
