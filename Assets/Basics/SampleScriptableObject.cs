@@ -4,9 +4,11 @@ using UnityEngine;
 
 namespace demo1
 {
-    //[CreateAssetMenu(menuName = "Demo1/ScriptObj")]
-    public class ScriptObj : ScriptableObject
+    [CreateAssetMenu(menuName = "SampleScriptableObject")]
+    public class SampleScriptableObject : ScriptableObject
     {
+        [SerializeField] float importantValue;
+
         public void Awake()
         {
             Debug.Log($"Awake {name}");
